@@ -1,0 +1,1 @@
+<?php echo $this->Form->input('Faq.faq_category_id',array('class'=>'form-control'));

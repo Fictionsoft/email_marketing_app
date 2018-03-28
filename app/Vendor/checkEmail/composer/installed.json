@@ -1,0 +1,56 @@
+[
+    {
+        "name": "mattketmo/email-checker",
+        "version": "v1.5.2",
+        "version_normalized": "1.5.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/MattKetmo/EmailChecker.git",
+            "reference": "24f08365b0d425d463d552059b539c175bc1e686"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/MattKetmo/EmailChecker/zipball/24f08365b0d425d463d552059b539c175bc1e686",
+            "reference": "24f08365b0d425d463d552059b539c175bc1e686",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^5.4 || ^7.0"
+        },
+        "require-dev": {
+            "fabpot/php-cs-fixer": "^1.9",
+            "knplabs/gaufrette": "^0.1",
+            "phpunit/phpunit": "^4.8",
+            "symfony/validator": "^2.1"
+        },
+        "suggest": {
+            "knplabs/gaufrette": "Use filesystem abstraction layer to read data",
+            "symfony/validator": "Add validation constraints"
+        },
+        "time": "2016-08-12T13:58:02+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "EmailChecker\\": "src/EmailChecker"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Matthieu Moquet",
+                "email": "matthieu@moquet.net"
+            }
+        ],
+        "description": "Throwaway email detection library",
+        "keywords": [
+            "check",
+            "disposable",
+            "email",
+            "throwaway"
+        ]
+    }
+]

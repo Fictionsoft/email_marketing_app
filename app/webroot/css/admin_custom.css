@@ -1,0 +1,98 @@
+/*start:qucik icon*/
+.quick-icon {
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+.quick-icon div.icon {
+    background: #eeeeee;
+    display: inline-block;
+    height: 130px;
+    margin: 15px 15px 0 0;
+    padding: 10px 25px;
+    text-align: center;
+    width: 141px;;
+}
+.quick-icon div.icon a {
+    background:#fff;
+    outline:none;
+    color: #6b6666;
+    font-size:12px;
+    text-align: center;
+    font-weight:400;
+    text-transform:uppercase;
+    text-shadow:0 1px 1px #FFFFFF;
+    font-family:Segoe UI;
+    display: inline-block;
+    text-decoration: none;
+    vertical-align: middle;
+    padding-top:10px;
+}
+.quick-icon span {
+    display: block;
+    padding-top:10px;
+    text-align: center;
+}
+.quick-icon div.icon{
+    background-color: #fff;
+    background-position: -30px;
+    display: inline-block;
+    color: #565656;
+    vertical-align: middle;
+    text-decoration: none;
+    border: 1px solid #CCC;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-transition-property:
+        background-position,
+        -webkit-border-bottom-left-radius,
+        -webkit-box-shadow;
+    -moz-transition-property:
+        background-position,
+        -moz-border-radius-bottomleft,
+        -moz-box-shadow;
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+}
+
+.quick-icon div.icon:hover {
+    background-position: 0;
+    -webkit-border-bottom-left-radius: 50% 20px;
+    -moz-border-radius-bottomleft: 50% 20px;
+    border-bottom-left-radius: 50% 20px;
+    -webkit-box-shadow: -5px 10px 15px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: -5px 10px 15px rgba(0, 0, 0, 0.25);
+    box-shadow: -5px 10px 15px rgba(0, 0, 0, 0.25);
+    position: relative;
+    z-index: 10;
+}
+
+/*.is-publish{
+    margin-left:20px;
+}*/
+
+.custom-search-form input{
+    float: left!important;
+}
+
+img{
+	background:#EEEEEE;
+}
+
+td div.inactive {
+    background: rgba(0, 0, 0, 0) url("images/inactive.png") no-repeat scroll center center;
+    height: 20px;
+    width: 40px;
+}
+
+td div.active {
+    background: rgba(0, 0, 0, 0) url("images/checkmark.png") no-repeat scroll center center;
+    height: 20px;
+    width: 40px;
+}
+
+
+.email_template_tbl tr td:nth-child(1){
+    width:25%;
+}

@@ -1,0 +1,65 @@
+/*video page */
+.video-section{
+    background-color: #ffffff;
+
+}
+.video-container{
+    box-shadow: 2px 2px 2px #888888;
+    position: inherit;
+	height:297px;
+}
+.video-title{
+    position: relative;
+    bottom: 20px;
+    color: #5ec0eb;
+    padding: 5px;
+}
+.video-short-details{
+    position: relative;
+    bottom: 20px;
+    padding: 5px;
+    color: #b2b2b2;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.video-comments{
+    position: relative;
+    bottom: 15px;
+    padding-bottom: 15px;
+    padding-top: 5px;
+    padding-left:10px ;
+    padding-right: 10px;
+    font-size: 12px;
+    color:#717171;
+
+}
+.video-watch-section{
+
+    background-color: rgba(0, 0, 0, 0.6);
+
+    display:none;
+    border-style: solid;
+    border-color: #ffffff;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.video-watch-now{
+    color: #ffffff;
+    text-align: center;
+    margin: 0 auto;
+    margin: 50px;
+    border-style: solid;
+    border-color: #ffffff;
+}
+.loader{
+    text-align: center;
+    display: none;
+}
+/*
+ * Searxh *
+ */

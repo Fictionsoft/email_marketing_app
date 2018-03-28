@@ -1,0 +1,1 @@
+<?php echo $photo = (!empty($photo))?"/uploads/users/$photo":"/images/user.png" ?>
